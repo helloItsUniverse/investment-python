@@ -11,7 +11,7 @@ app = FastAPI()
 openai.api_key = os.getenv("OPENAI_API_KEY") or "your_openai_api_key_here"
 
 # 환율 API 키 (예: Alpha Vantage)
-EXCHANGE_RATE_API_KEY = "your_exchange_rate_api_key_here"
+EXCHANGE_RATE_API_KEY = os.getenv("ALPHA_VANTAGE_API_KEY") or "your_exchange_rate_api_key_here"
 
 class Investment(BaseModel):
     amount: float
