@@ -4,7 +4,7 @@ import plotly.graph_objects as go
 from datetime import datetime, timedelta
 
 # Backend URL
-BACKEND_URL = "http://localhost:8000"
+BACKEND_URL = "http://0.0.0.0:8000"
 
 # Helper functions
 def login(username, password):
