@@ -13,5 +13,5 @@ langchain_openai
 langsmith
 streamlit
 plotly
-psycopg2
+psycopg2-binary
 python-multipart
